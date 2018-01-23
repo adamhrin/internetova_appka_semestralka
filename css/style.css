@@ -1,0 +1,105 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #ff8100;
+}
+#grassLogoSm {
+    height: 50px;
+    width: 50px;
+}
+/* Carousel Styling */
+.slide{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 767px) {
+    .slide {
+        height: 20em;
+    }
+}
+.slide1{
+    background-image: url(../images/majstri.jpg);
+}
+.slide2{
+    background-image: url('../images/grass1.jpg');
+}
+.slide3{
+    background-image: url('../images/mladi.jpg');
+}
+.slide4{
+    background-image: url('../images/mladi3.jpg');
+}
+.slide5{
+    background-image: url('../images/mladi2.jpg');
+}
+.slide6{
+    background-image: url('../images/rohace1.jpg');
+}
+.slide7{
+    background-image: url('../images/zapas1.jpg');
+}
+.slide8{
+    background-image: url('../images/zapas2.jpg');
+}
+.slide9{
+    background-image: url('../images/teambuilding.jpg');
+}
+.carousel-caption h1{
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: .4em;
+}
+.list-group-item {
+    background-color: floralwhite;
+}
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 2em;
+    }
+    #add_training_btn_small {
+        padding-bottom: 45px;
+    }
+}
+.neutralTraining {
+     background-color: silver;
+ }
+.acceptedTraining{
+    background-color: lawngreen;
+}
+.acceptedTraining .acceptBtn{
+    display: none;
+}
+.declinedTraining{
+    background-color: red;
+}
+.declinedTraining .declineBtn{
+    display: none;
+}
+.training_players_table {
+    background-color: white;
+}
+#change_pwd {
+    background-color: lightgrey;
+}
+.btn-circle {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    padding: 9px 0px;
+    margin: -5px 5px 0px 5px;
+    font-size: 15px;
+    line-height: 1.428571429;
+    border-radius: 19px;
+}
+.training_text {
+    font-size: 2em;
+}
+.highlight td {
+    font-weight: bold;
+    background-color: #fff3a7;
+}
+.categiores_collapse {
+    color: #000;
+    text-decoration: underline;
+}
